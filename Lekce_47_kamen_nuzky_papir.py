@@ -40,5 +40,9 @@ computer_choice = random.randint(0, 2)
 # vytvoření listu pro kámen, nůžky, papír
 list_vyberu = [rock, paper, scissors]
 
-# proměnna pro obrazek - vybrat index, který se rovná v user_choice a v obrázcích se mi ukáže konkrétní obrázek volby
-user_picture = list_vyberu [user_choice]
+# proměnna pro obrazek - uživatel, vybrat index, který se rovná v user_choice a v obrázcích se mi ukáže konkrétní obrázek volby
+user_picture = list_vyberu[user_choice]
+
+# proměnná pro obázek - počítač
+user_computer = list_vyberu[computer_choice]
+
