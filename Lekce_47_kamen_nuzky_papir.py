@@ -26,3 +26,9 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+
+import random
+# uživatel zadá výběr - kámen 0, nůžky 2, papír 1
+
+user_choice = int(input("Co si vyberete? Napište 0 pokud kámen, 1 pokud papír, 2 pokud nůžky\n"))
+# print(user_choice)
