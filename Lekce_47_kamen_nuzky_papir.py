@@ -50,4 +50,20 @@ user_computer = list_vyberu[computer_choice]
 print(f"Uživatel si vybral:\n {user_picture}")
 print(f"Počítač si vybral:\n {user_computer}")
 
+# pravidla hry
 
+
+if user_choice == computer_choice:
+    print("Remíza")
+elif user_choice == 0 and computer_choice == 1:
+    print("Prohrál jsi, počítač vyhrává")
+elif user_choice == 0 and computer_choice == 2:
+    print("Vyhrál jsi, počítač prohrává")
+elif user_choice == 1 and computer_choice == 0:
+    print("Vyhrál jsi, počítač prohrává")
+elif user_choice == 1 and computer_choice == 2:
+    print("Prohrál jsi, počítač vyhrává")
+elif user_choice == 2 and computer_choice == 0:
+    print("Prohrál jsi, počítač vyhrává")
+elif user_choice == 2 and computer_choice == 1:
+    print("Vyhrál jsi, počítač prohrává")
