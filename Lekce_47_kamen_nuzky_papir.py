@@ -46,3 +46,8 @@ user_picture = list_vyberu[user_choice]
 # proměnná pro obázek - počítač
 user_computer = list_vyberu[computer_choice]
 
+# vyprintování
+print(f"Uživatel si vybral:\n {user_picture}")
+print(f"Počítač si vybral:\n {user_computer}")
+
+
