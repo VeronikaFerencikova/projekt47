@@ -32,3 +32,7 @@ import random
 
 user_choice = int(input("Co si vyberete? Napište 0 pokud kámen, 1 pokud papír, 2 pokud nůžky\n"))
 # print(user_choice)
+
+# počítač vybírá volby - kámen 0, papír 1, nůžky 2 - stejná volba
+computer_choice = random.randint(0, 2)
+# print(computer_choice)
